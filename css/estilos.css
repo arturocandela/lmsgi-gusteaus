@@ -1,10 +1,67 @@
-p {
-  color: blue;
-  text-align: center;
+#contenedor {
+    background-color: #fff8f0;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
 }
 
-div {
-  background-color: green;
+div.encabezado {
+    background-image: url(../imgs/guesteaus.png);
+    background-size: cover;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1000px;
 }
 
+div.menu {
+    background-color: #a77e58; /* Tono marrón claro */
+}
 
+div.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+div.menu ul li {
+    display: inline-block;
+    margin: 0 10px; /* Ajustar según sea necesario */
+}
+
+div.menu ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Blanco */
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+div.menu ul li a:hover {
+    color: #5a3e36; /* Marrón oscuro */
+}
+
+div.contenido {
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+div.sidebar {
+    background-color: #ecdcc6;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+/* Estilos para el Pie de Página (div.pie) */
+div.pie {
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
